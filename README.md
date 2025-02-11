@@ -2,6 +2,10 @@
 
 A deep learning project that detects smiles in images and video streams using transfer learning and face detection.
 
+
+https://github.com/user-attachments/assets/68d41edc-39c8-4508-8c64-0b9975511caf
+
+
 <!-- ![](dataset_samples.png) -->
 <figure style="text-align:center">
     <img src="media/dataset_samples.png" title="Dataset Samples" alt="Sample images from the dataset showing smile and non-smile classifications" width="70%" style="display:block;margin:0 auto" />

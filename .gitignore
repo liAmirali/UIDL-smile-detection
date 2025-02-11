@@ -1,0 +1,7 @@
+dataset/
+venv/
+test/
+.idea/
+.ipynb_checkpoints/
+saved_models/
+deliveries/

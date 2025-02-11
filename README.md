@@ -4,7 +4,7 @@ A deep learning project that detects smiles in images and video streams using tr
 
 <!-- ![](dataset_samples.png) -->
 <figure style="text-align:center">
-    <img src="dataset_samples.png" title="Dataset Samples" alt="Sample images from the dataset showing smile and non-smile classifications" width="70%" style="display:block;margin:0 auto" />
+    <img src="media/dataset_samples.png" title="Dataset Samples" alt="Sample images from the dataset showing smile and non-smile classifications" width="70%" style="display:block;margin:0 auto" />
     <figcaption>
     Sample images from the dataset showing smile and non-smile classifications
     </figcaption>
@@ -20,10 +20,22 @@ This project implements a real-time smile detection system using deep learning. 
 The system first detects faces using [MTCNN](https://github.com/ipazc/mtcnn) and then classifies each detected face as "smile" or "nonsmile" using a custom-trained neural network.
 
 <figure style="text-align:center">
-    <img src="dataset_samples_detected_faces.png" title="Detected Faces" alt="Sample images from the dataset showing smile and non-smile classifications" width="70%" style="display:block;margin:0 auto" />
+    <img src="media/dataset_samples_detected_faces.png" title="Detected Faces" alt="Sample images from the dataset showing smile and non-smile classifications" width="70%" style="display:block;margin:0 auto" />
     <figcaption>
     Face detection results using MTCNN
     </figcaption>
+</figure>
+
+<figure style="text-align:center;">
+<img src="media/two_faces.png" title="Detected Faces" alt="An image from dataset where more than one faces are present" width="70%" style="display:block;margin:0 auto" />
+<div style="column-gap:2rem;display:flex;align-items:center;justify-content:center;margin: 1rem 0;">
+    <img src="media/two_faces_B.png" title="Detected Faces" alt="Face A" />
+    <figcaption>
+    <img src="media/two_faces_A.png" title="Detected Faces" alt="Face B" />
+</div>
+<figcaption>
+A) An image from dataset where more than one faces are present; B) The detected faces
+</figcaption>
 </figure>
 
 ## Features
@@ -49,7 +61,7 @@ The model was trained using transfer learning, building upon existing emotion de
 - Data augmentation (random flips and rotations)
 - Custom preprocessing including RGB to grayscale conversion
 
-![Training Results](loss_accuracy_plot.png)
+![Training Results](media/loss_accuracy_plot.png)
 *Model training results showing accuracy and loss over time*
 
 ## Getting Started
@@ -96,4 +108,4 @@ The project uses the [GENKI-4K dataset](https://www.kaggle.com/datasets/talhasar
 
 This is a video demonstration of the model performance.
 
-<video controls src="output.mp4" title="Predict" style="display:block;margin:0 auto"></video>
+<video controls src="media/output.mp4" title="Predict" style="display:block;margin:0 auto"></video>

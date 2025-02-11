@@ -107,9 +107,3 @@ fd.predict_image("image.jpg")
 ## Dataset
 
 The project uses the [GENKI-4K dataset](https://www.kaggle.com/datasets/talhasar/genki4k), which contains labeled face images for smile detection training and validation.
-
-## Predict
-
-This is a video demonstration of the model performance.
-
-<video controls src="media/output.mp4" title="Predict" style="display:block;margin:0 auto"></video>
